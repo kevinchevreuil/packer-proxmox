@@ -1,0 +1,13 @@
+proxmox_host         = "146.59.110.145:8006"
+proxmox_node         = "node3"
+proxmox_api_user     = "packer@pve"
+proxmox_api_password = "5e60ffde-90f3-458b-b764-80fcc2118b42"
+
+cloudinit_storage_pool = "exo-industries-ceph"
+cores = "1"
+disk_format = "raw"
+disk_size = "20G"
+disk_storage_pool = "exo-industries-ceph"
+disk_storage_pool_type = "lvm"
+cpu_type = "kvm64"
+memory = "1024"
