@@ -55,6 +55,7 @@ source "proxmox-iso" "debian-11" {
   username                 = var.proxmox_api_user
   password                 = var.proxmox_api_password
   ssh_timeout              = "30m"
+  ssh_port                 = 51000
 
   template_description = "Debian 11 cloud-init template"
   node                 = var.proxmox_node
